@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.perfil-foto-container {
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.perfil-foto {
+    width: 60%;
+    max-height: 100%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+h3.card-rol{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #ffffff;
+}
+
+p.rol{
+    color: #14ffec !important;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* styles.css */
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 2px 0;
+}
+
+.info p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* estilos.css */
+.card-extend {
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+    text-align: start; /* Centrar el contenido dentro de la tarjeta */
+    padding: 40px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las facturas de pago */
+h1.titulo-perfil.factura{
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+h1.titulo-perfil.pedidos{
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.parrafo-perfil.factura{
+    text-align: start;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #212121;
+    font-weight: 500;
+}
+
+/* Estilos para los perfiles */
+h1.titulo-perfil{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+p.parrafo-perfil{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #212121;
+    font-weight: 500;
+}
+/* Estilos para el perfil de usuario rol administrador */
+.imagen-ancho-completo {
+    width: 390px;
+    height: 420px;
+    border-radius: 100%;
+    max-width: 1600px;
+    margin-top: 30px;
+}
+
+p.admin-rol{
+    color: #0d7377 !important;
+}
+
+.col-lg-8{
+    padding: 20px 50px;
+}
+
+.stars{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.message{
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.message::after{
+    content: "";
+    position: absolute;
+    top: 50px; /* Agrega esta propiedad para alinear el borde en la parte inferior */
+    left: 0; /* Opcional: para alinear el borde a lo largo de todo el elemento */
+    width: 100%; /* Opcional: para que el borde ocupe todo el ancho del elemento */
+    border-bottom: 1px solid #968e96;
+}
+
+p.title-admin{
+    margin-top: 30px !important;
+}
+
+.btn-primary.admin{
+    padding: 15px 0;
+    width: 50% !important;
+    border: transparent;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(20, 255, 236) 0%, #212121 100%);
+    border-radius: 0;
+    transition: transform 0.4s ease-in-out;
+    display: block; /* Para ocupar el ancho máximo y centrarse horizontalmente */
+    margin: 0 auto; /* Centra horizontalmente el botón */
+}
+
+.btn-primary.admin:hover{
+    background: linear-gradient(90deg, #212121 0%, rgb(20, 255, 236) 100%);
+    transform: translateY(-4px);
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1567px){
+    .imagen-ancho-completo {
+        width: 310px;
+        height: 370px;
+        border-radius: 100%;
+        max-width: 1600px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1249px){
+    .imagen-ancho-completo {
+        width: 290px;
+        height: 300px;
+        border-radius: 100%;
+        max-width: 1600px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1169px){
+    .imagen-ancho-completo {
+        width: 220px;
+        height: 240px;
+        border-radius: 100%;
+        max-width: 1600px;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 991px){
+    .imagen-ancho-completo {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        max-width: 1600px;
+        margin-top: 30px;
+    }
+}
+/* Estilos Informacion de actividades */
+.imagen-actividad{
+    width: 100%;
+    max-width: 1600px;
+    margin-top: 30px;
+}
+
+.activity{
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.activity::after{
+    content: "";
+    position: absolute;
+    top: 50px; /* Agrega esta propiedad para alinear el borde en la parte inferior */
+    left: 0; /* Opcional: para alinear el borde a lo largo de todo el elemento */
+    width: 100%; /* Opcional: para que el borde ocupe todo el ancho del elemento */
+    border-bottom: 1px solid #968e96;
+}
+
+/* Estilos perfil entrenador ROL ADMINISTRADOR */
+h5.entrenador-title{
+    text-align: center;
+    color: #0d7377 !important;
+}
+
+/* Estilos para los pagos del entrenador detalle */
+p.pago-training{
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+p.pago-training::after{
+    content: "";
+    position: absolute;
+    bottom: 50px; /* Agrega esta propiedad para alinear el borde en la parte inferior */
+    left: 0; /* Opcional: para alinear el borde a lo largo de todo el elemento */
+    width: 100%; /* Opcional: para que el borde ocupe todo el ancho del elemento */
+    border-bottom: 1px solid #968e96;
+}
+
+.imagen-entrenador {
+    width: 100%;
+    max-width: 1600px;
+    height: 500px !important;
+}
+
+/* Estilo para el detalle del entrenador el parrafo solamnete */
+p.training{
+    font-size: 18px;
+    color: #323232;
+}
+
+/* Estilos columna informacion entrenador tarjetas o detalle */
+.col-lg-6.colum{
+    padding: 80px  30px !important;
+}
+@media screen and (min-width: 1450px) and (max-width: 1683px){
+    .imagen-entrenador {
+        width: 100%;
+        height: 400px;
+        max-width: 1600px;
+    }
+}
+
+@media screen and (min-width: 1684px) and (max-width: 2000px){
+    .imagen-entrenador {
+        width: 100%;
+        height: 570px !important;
+        max-width: 1600px;
+    }
+    .body{
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        height: 870px !important;
+        border-radius: 0 0 20px 20px;
+        transition: .7s;
+    }
+    p.training{
+        font-size: 23px;
+    }
+    h5.card-title{
+        font-size: 30px !important;
+    }
+    p.card-text{
+        font-size: 25px !important;
+    }
+    .col-lg-6.colum{
+        padding: 150px  60px !important;
+    }
+}
+@media screen and (min-width: 2001px) and (max-width: 2400px){
+    .imagen-entrenador {
+        width: 100%;
+        height: 700px !important;
+        max-width: 1600px;
+    }
+    .body{
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        height: 1000px !important;
+        border-radius: 0 0 20px 20px;
+        transition: .7s;
+    }
+    .col-lg-6{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagen-ancho-completo-logo {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    p.training{
+        font-size: 23px;
+    }
+    h5.card-title{
+        font-size: 30px !important;
+    }
+    p.card-text{
+        font-size: 25px !important;
+    }
+    .col-lg-6.colum{
+        padding: 180px  60px !important;
+    }
+}
+.col-lg-6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Esta logo es el del modulo de Planes */
+.imagen-ancho-completo-logo {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Esta logo es el del modulo de pago */
+.imagen-logo{
+    width: 100%;
+    max-width: 1600px;
+}
+
+.card-entrenador {
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+    text-align: start; /* Centrar el contenido dentro de la tarjeta */
+    padding: 40px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.body{
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 800px;
+    border-radius: 0 0 10px 10px;
+    transition: .7s;
+}
+
+.body:hover{
+    background: linear-gradient(90deg, #212121 0%, rgb(20, 255, 236) 100%) !important;
+    border-radius: 0 0 10px 10px;
+}
+
+.body:hover h5{
+    color: #ffffff;
+}
+
+.body:hover p{
+    color: #ffffff;
+}
+
+article.body-training{
+    padding: 10px 30px 0 30px;
+}
+/* Este titulo es el de los detalles de perfil, y facturas */
+h5.card-title{
+    font-size: 25px;
+    color: #010A43;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h5.card-title-entrenador{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #212121;
+    font-weight: 600;
+    text-align: center;
+}
+
+p.card-text{
+    font-size: 20px;
+    margin-top: 60px;
+    color: #212121;
+    font-weight: 500;
+}
+
+p.card-text-entrenador{
+    font-size: 15px;
+    margin-top: 60px;
+    color: #212121;
+    font-weight: 500;
+}
+
+.btn-primary.boton{
+    margin-left: 10px;
+}
+
+.btn-primary.boton.central{
+    margin: 0 auto;
+}
+
+.row.columna{
+    width: 100%;
+}
+
+.btn-primary.training{
+    padding: 15px 0;
+    width: 100% !important;
+    border: transparent;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(20, 255, 236) 0%, #212121 100%);
+    border-radius: 0;
+    transition: transform 0.4s ease-in-out;
+}
+
+.btn-primary.training:hover{
+    background: linear-gradient(90deg, #212121 0%, rgb(20, 255, 236) 100%);
+    transform: translateY(-4px);
+}
+
+.centered-buttons.btn{
+    margin: 10px;
+}
+/* Estilos tarjetas de planes */
+
+.plan-bg{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    padding: 30px 30px;
+    background: #323232;
+    height: 480px;
+    position: relative;
+    z-index: 999;
+}
+
+.plan-bg:hover{
+    background: linear-gradient(90deg, #212121 0%, rgb(20, 255, 236) 100%);
+}
+
+h1.card-text-titulo{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h3.card-text-titulo{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.plan-bg:hover h3.card-text-titulo::after {
+    background: #ffffff;
+    z-index: 1; /* Coloca el pseudo-elemento por encima del contenido en hover */
+}
+
+h3.card-text-titulo::after{
+    width: 200px;
+    height: 4px;
+    margin: 0 auto;
+    top: 40px;
+    right: 10px;
+    content: "";
+    position: absolute;
+    background: #14ffec;
+    margin-top: 8px;
+    border-radius: 20px;
+    transition: .7s;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    h1.card-text-titulo{
+        font-size: 25px;
+    }
+    h3.card-text-titulo{
+        font-size: 20px;
+    }
+    .btn-primary.boton {
+        margin-left: 0px;
+        font-size: 8px;
+    }
+    .btn-danger.plan{
+        font-size: 8px;
+    }
+    p.card-text-planes{
+        font-size: 12px !important;
+        margin-top: 5px;
+    }
+    h3.card-text-titulo::after{
+        width: 70%;
+        max-width: 290px;
+        left: 3px;
+        right: 3px;
+    }
+}
+@media screen and (min-width: 1401px) and (max-width: 1555px){
+    h1.card-text-titulo{
+        font-size: 33px;
+    }
+    .btn-primary.boton {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .btn-danger.plan{
+        font-size: 12px;
+    }
+    h3.card-text-titulo::after{
+        width: 70%;
+        max-width: 290px;
+        left: 3px;
+        right: 3px;
+    }
+}
+
+@media screen and (min-width: 1556px) and (max-width: 1921px){
+    h3.card-text-titulo::after{
+        width: 80%;
+        left: 3px;
+        right: 3px;
+    }
+}
+
+
+@media screen and (min-width: 1922px) and (max-width: 2000px){
+    h3.card-text-titulo::after{
+        width: 90%;
+        left: 3px;
+        right: 3px;
+    }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2400px){
+    h3.card-text-titulo::after{
+        width: 100%;
+        left: 3px;
+        right: 3px;
+    }
+}
+
+p.card-text-planes{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.btn-danger.plan{
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2400px){
+    .plan-bg{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 12px;
+        padding: 30px 50px;
+        background: #323232;
+        height: 480px;
+    }
+}
+
+/* Estilos tarjetas de actividades */
+.card-actividad-bg{
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 600px;
+    border-radius: 0 0 10px 10px;
+    transition: .7s;
+}
+article.body-activity{
+    padding: 10px 30px 0 30px;
+}
+
+.card-actividad-bg:hover{
+    background: linear-gradient(90deg, #212121 0%, rgb(20, 255, 236) 100%);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-actividad-bg:hover h1{
+    color: #ffffff;
+}
+
+.card-actividad-bg:hover h3{
+    color: #ffffff;
+}
+
+.card-actividad-bg:hover p{
+    color: #ffffff;
+}
+
+h1.card-text-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: #212121;
+}
+
+h3.card-text-title{
+    font-size: 20px;
+    text-align: center;
+    color: #212121;
+}
+
+p.card-text-actividades{
+    margin: 10px 0;
+    font-size: 16px;
+    color: #323232;
+}
+
+.card-img {
+    width: 100%; /* Ajusta el ancho según lo necesites */
+    height: 300px; /* Para mantener la proporción de la imagen */
+    border-radius: 3px 3px 0 0; /* Opcional: agrega bordes redondeados */
+    /* Agrega más estilos aquí */
+}
+
+/* Estilos icnos de compras ventas */
+.icofont-shopify{
+    font-size: 55px;
+}
+/* Estilos icono de pagos */
+.icofont-pay{
+    font-size: 55px;
+}
+/* Estilos iconos de actividades */
+.icofont-gym-alt-3.activity{
+    font-size: 55px !important;
+}
+/* Estilos para el icono de productos */
+.icofont-dumbbell.producto{
+    font-size: 55px !important;
+}
+/* Estilos para el icono de planes */
+.icofont-tags.planes{
+    font-size: 55px !important;
+}
+
+/* Estilos para el modulo de entrega y estados de los pedidos de los clientes */
+/* Estilos generales para el estado del pedido */
+.estado-pedido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+  
+/* Estilos para cada paso */
+.paso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.icono {
+    font-size: 36px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.texto {
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+.flecha {
+    width: 20px;
+    height: 2px;
+    background-color: #3498db;
+    margin: 0 10px;
+}
+  
+/* Estilos para cada paso específico */
+.paso-comprado .icono {
+    background-color: #27ae60;
+}
+  
+.paso-enviado .icono {
+    background-color: #f39c12;
+}
+  
+.paso-entregado .icono {
+    background-color: #e74c3c;
+}
+
+.icofont-visa-electron{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icofont-credit-card{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icofont-bank-alt{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icofont-bill-alt{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* Estilos para convertir el botón de cierre en una "x" en la ventana modal */
+.custom-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #000; /* Cambia el color a tu preferencia */
+    text-shadow: 0 1px 0 #fff; /* Agrega un efecto de sombra de texto si lo deseas */
+    opacity: 1; /* Ajusta la opacidad según sea necesario */
+    background: transparent; /* Elimina cualquier fondo */
+    border: none; /* Elimina cualquier borde */
+    cursor: pointer;
+}
+
+/* Cambia el color del botón de cierre al pasar el mouse por encima (opcional) */
+.custom-close-button:hover {
+    color: #ff0000; /* Cambia el color al pasar el mouse por encima */
+}
+
+#miIcono {
+    font-size: 19px; /* Cambia el tamaño según tus necesidades */
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
